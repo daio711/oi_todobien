@@ -1,0 +1,20 @@
+* {
+    /*invluye TODOS los elementos html */
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    background-color: aqua;
+}
+
+h1 {
+    color: red;
+}
+
+/* .clase */
+
+/* id va con solo un elemento
+
+#id
+
+*/
