@@ -1,14 +1,113 @@
 * {
-    /*invluye TODOS los elementos html */
+    /* Incluye TODOS los elementos html */
     font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-p {
+header {
     background-color: aqua;
+
+   
+
+}
+
+.pilares img {
+    width: 40%;
+        
+} 
+/* Celulares */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: large;
+        
+    }
+    
+    .pilares {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       background-color: red;
+       text-align: center;    
+       
+
+ 
+        
+
+       
+    }
+
+   
+      
+
+}
+
+.logo-wh {
+    position: fixed;
+    margin: 1%;
+    width: 5%;
+    bottom: 5%;
+    right: 2%;
+    z-index: 20;
 }
 
 h1 {
     color: red;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 1%;
+    padding: 1%;
+    border: solid 1px black;
+    background-color: beige;
+    text-align: center;
+        
+}
+.pilares {
+    
+    display: flex;
+    max-width: 100%;
+}
+
+.mision {
+    max-width: 25%;
+    text-align: center;
+    
+}
+.pasion {
+    max-width: 25%;
+    text-align: center;
+}
+.Didáctica {
+    max-width: 25%;
+    text-align: center;
+}
+.soporte {
+    max-width: 25%;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+}
+.idiomas,  .idiomas_2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.referencias {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
 /* .clase */
